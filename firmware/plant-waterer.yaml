@@ -110,7 +110,7 @@ output:
   - platform: gpio
     pin: 23
     id: relay
-    inverted: True
+    inverted: False
 
 script:
   - id: water_pump
